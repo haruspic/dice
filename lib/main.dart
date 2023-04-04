@@ -5,8 +5,10 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.red,
         appBar: AppBar(
-          title: const Text('Text'),
+          title: const Text('Dicee'),
+          backgroundColor: Colors.red,
         ),
         body: const HomePage(),
       ),

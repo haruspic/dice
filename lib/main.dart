@@ -8,6 +8,7 @@ void main() {
         backgroundColor: Colors.red,
         appBar: AppBar(
           title: const Text('Dicee'),
+          centerTitle: true,
           backgroundColor: Colors.red,
         ),
         body: const HomePage(),
